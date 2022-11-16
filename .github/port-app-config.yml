@@ -1,0 +1,13 @@
+---
+resources:
+- kind: repository
+  selector:
+    query: 'true'
+  port:
+    entity:
+      mappings:
+        identifier: '"recommendation"'
+        blueprint: '"service"'
+        properties:
+          Swagger: file://open-api.json
+          README: file://README.MD
