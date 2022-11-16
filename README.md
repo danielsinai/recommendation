@@ -116,6 +116,5 @@ yarn up -R '**'
 ```
 
 ## TODO
-
 1. Create a general docker-compose file for all services
 2. create general config files and store them in the root directory, and add proper overriding config files in the microservice subdirectories
