@@ -10,4 +10,4 @@ resources:
         blueprint: '"service"'
         properties:
           Swagger: file://open-api.json
-          README: file://README.MD
+          README: file://README.md
